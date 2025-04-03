@@ -29,8 +29,8 @@
 // export default Skills;
 
 
-import SectionHeading from "@/components/Helper/SectionHeading";
-import { skillsData } from "@/Data/data";
+import SectionHeading from "../../Helper/SectionHeading";
+import { skillsData } from "../../../Data/data";
 import React from "react";
 import SkillCard from "./SkillCard";
 

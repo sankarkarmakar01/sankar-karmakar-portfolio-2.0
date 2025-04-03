@@ -1,5 +1,5 @@
-import SectionHeading from "@/components/Helper/SectionHeading";
-import { projectData } from "@/Data/data";
+import SectionHeading from "../../Helper/SectionHeading";
+import { projectData } from "../../../Data/data";
 import Image from "next/image";
 import React from "react";
 

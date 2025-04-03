@@ -36,19 +36,6 @@ const ContactForm = () => {
           />
         </div>
         <div>
-          {/* <select className="w-full mt-5 bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none">
-            <option
-              value="no-one-selected"
-              disabled
-              selected
-              defaultValue="no-one-selected"
-            >
-              Select an option
-            </option>
-            <option value="frontend">Frontend Development</option>
-            <option value="backend">Backend Development</option>
-            <option value="fullstack">Full Stack Development</option>
-          </select> */}
            <select 
             className="w-full mt-5 bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none"
             defaultValue="no-one-selected"

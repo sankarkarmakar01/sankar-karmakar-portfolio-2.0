@@ -17,7 +17,7 @@
 // export default Hobbies;
 
 
-import SectionHeading from "@/components/Helper/SectionHeading";
+import SectionHeading from "../../Helper/SectionHeading";
 import React from "react";
 import Slider from "./Slider";
 
