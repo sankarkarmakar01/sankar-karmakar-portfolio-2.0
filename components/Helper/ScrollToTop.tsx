@@ -4,7 +4,6 @@ import { FaArrowUp } from "react-icons/fa";
 
 const ScrollToTop = () => {
   const [inVisible, setInVisible] = useState(false);
-
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.screenY > 300) {
@@ -13,9 +12,7 @@ const ScrollToTop = () => {
         setInVisible(false);
       }
     };
-
     window.addEventListener("scroll", toggleVisibility);
-
     return () => {
       window.addEventListener("scroll", toggleVisibility);
     };

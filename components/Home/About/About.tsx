@@ -28,7 +28,6 @@ const About = () => {
               </p>
             </div>
           </div>
-
           <div className="mt-8">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-7 h-7 bg-orange-800 flex flex-col items-center justify-center">
@@ -39,7 +38,6 @@ const About = () => {
               </p>
             </div>
           </div>
-
           <div className="mt-8">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-7 h-7 bg-green-800 flex flex-col items-center justify-center">
@@ -73,7 +71,6 @@ const About = () => {
               Skills Achived
             </p>
           </div>
-
           {/* 2nd Stat */}
           <div>
             <Image
@@ -90,7 +87,6 @@ const About = () => {
               Years Experience
             </p>
           </div>
-
           {/* 3rd Stat */}
           <div>
             <Image
@@ -107,7 +103,6 @@ const About = () => {
               Completed Project
             </p>
           </div>
-
           {/* 4th Stat */}
           <div>
             <Image

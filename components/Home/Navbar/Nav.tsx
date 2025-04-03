@@ -11,7 +11,6 @@ type Props = {
 
 const Nav = ({ openNav }: Props) => {
   const [navBg, setNavBg] = useState(false);
-
   useEffect(() => {
     const handler = () => {
       setNavBg(window.scrollY >= 90);
@@ -21,7 +20,6 @@ const Nav = ({ openNav }: Props) => {
       window.removeEventListener("scroll", handler);
     };
   }, []);
-
   return (
     <div
       className={`fixed ${
@@ -55,7 +53,6 @@ const Nav = ({ openNav }: Props) => {
             <button className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
               Hire Me
             </button>
-
             {/* Buger  */}
             <HiBars3BottomRight
               onClick={openNav}

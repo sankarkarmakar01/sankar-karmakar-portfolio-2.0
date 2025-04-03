@@ -36,7 +36,7 @@ const ContactForm = () => {
           />
         </div>
         <div>
-           <select 
+          <select
             className="w-full mt-5 bg-black text-white placeholder:text-gray-600 px-4 py-3.5 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none"
             defaultValue="no-one-selected"
           >
