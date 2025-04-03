@@ -20,7 +20,6 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
         <div
           className={`text-white ${navOpen} transform transition-all duration-500 delay-300 fixed flex justify-center flex-col h-full w-[80%] sm:w-[60%] bg-[#0f0715] space-x-6 z-[10000]`}
         >
-          {/* <div className="hidden lg:flex items-center space-x-8"> */}
           {navLinks.map((navLink) => {
             return (
               <div key={navLink.id} id={navLink.url}>
