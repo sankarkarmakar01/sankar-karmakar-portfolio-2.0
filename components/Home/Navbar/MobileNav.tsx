@@ -1,3 +1,4 @@
+"use client"
 import { navLinks } from "../../../constant/constant";
 import Link from "next/link";
 import React from "react";
