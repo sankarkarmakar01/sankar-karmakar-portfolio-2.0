@@ -3,7 +3,7 @@ export const BaseInfo = {
   position: "Full Stack Web Developer",
   description:
     "I am a full-stack web developer skilled in MERN stack, responsive design, and both SQL & NoSQL databases, with expertise in frontend and backend development",
-  profilePic: "/images/hero.jpg",
+  profilePic: "/images/hero.png",
 };
 
 export const aboutInfo = {

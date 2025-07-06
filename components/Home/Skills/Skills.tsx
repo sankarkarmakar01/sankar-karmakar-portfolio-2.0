@@ -12,7 +12,7 @@ const Skills = () => {
           {skillsData.map((skill, i) => (
             <div
               data-aos="flip-left"
-              data-aos-delay={i * 80}
+              data-aos-delay={i * 50}
               data-aos-anchor-placement="top-center"
               key={skill.id}
               className="h-full"

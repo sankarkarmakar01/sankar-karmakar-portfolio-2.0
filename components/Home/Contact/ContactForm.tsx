@@ -10,7 +10,7 @@ const ContactForm = () => {
         Let’s collaborate—reach out and let’s create something amazing together!
       </p>
       {/* Input Fields */}
-      <form className="mt-8 block w-full overflow-hidden">
+      <form className="mt-8 block w-full overflow-hidden" >
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <input
             type="text"
