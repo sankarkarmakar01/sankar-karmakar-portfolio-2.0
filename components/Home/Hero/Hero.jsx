@@ -35,7 +35,7 @@ const Hero = () => {
             </p>
             {/* Button */}
             <a
-              href="/pdfs/Sankar_Karmakar_Final_Resume_100.pdf"
+              href="/pdfs/Sankar_Karmakar_Resume.pdf"
               target="_blank"
               download
             >
